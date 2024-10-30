@@ -42,6 +42,31 @@ var_test = "any value"
 #ellipsis
 var = ... #test ellipsis
 
-#string formatting: f'any text{}'
-var = f'{var2} test'
+#string formatting (f-strings): f'any text{}'
+var = f'{var_test} test'
+float_example_1 = 3.256
+varTest = f'Please, enter the code for this id ({float_example_1:.2f}) '
 
+#controls decimal places
+float_example_2 = 7.256
+var = f'{float_example_2:.2f}'
+
+#.format(x,y,z) : Its a method in python used for format in order to make them more flexible
+
+format_variable = "Any word"
+format_example = 'this is a test case using format here {}'.format(format_variable)
+print(format_example)
+
+#input : Using input function to collect data
+name_example = input("What's is your name? ")
+print(f'your name is {name_example}')
+
+#if, else, elif: structures that allow us decision making
+var_in_out = input('Do you want "enter" or "exit"? ' )
+
+if var_in_out == 'enter':
+    print('You entered the system')
+elif var_in_out == 'exit':
+    print('You left the system')
+else:
+    print('Invalid value. Please try again')
