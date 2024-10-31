@@ -1,3 +1,4 @@
+'''
 #do Comment
 
 #Print words in console
@@ -37,36 +38,73 @@ print(type(12.))
 print(int("3")+1)
 
 #Create Variable
-var_test = "any value"
+var1 = "any value"
 
 #ellipsis
-var = ... #test ellipsis
+var3 = ... #test ellipsis
 
 #string formatting (f-strings): f'any text{}'
-var = f'{var_test} test'
+var2 = f'{var1} test'
 float_example_1 = 3.256
-varTest = f'Please, enter the code for this id ({float_example_1:.2f}) '
+var4 = f'Please, enter the code for this id ({float_example_1:.2f}) '
 
 #controls decimal places
-float_example_2 = 7.256
-var = f'{float_example_2:.2f}'
+var6 = 7.256
+var5 = f'{var6:.2f}'
 
 #.format(x,y,z) : Its a method in python used for format in order to make them more flexible
 
-format_variable = "Any word"
-format_example = 'this is a test case using format here {}'.format(format_variable)
-print(format_example)
+var7 = "Any word"
+var8 = 'this is a test case using format here {}'.format(var7)
+print(var8)
 
 #input : Using input function to collect data
-name_example = input("What's is your name? ")
-print(f'your name is {name_example}')
+var9 = input("What's is your name? ")
+print(f'your name is {var9}')
 
 #if, else, elif: structures that allow us decision making
-var_in_out = input('Do you want "enter" or "exit"? ' )
+var10 = input('Do you want "enter" or "exit"? ' )
 
-if var_in_out == 'enter':
+if var10 == 'enter':
     print('You entered the system')
-elif var_in_out == 'exit':
+elif var10 == 'exit':
     print('You left the system')
 else:
     print('Invalid value. Please try again')
+
+
+#Comparion operators: >, >=, <, <=, == and !=
+
+'''
+v11 = 24
+if v11<=10:
+    print("Is bigger")
+else:
+    print("Is smaller")
+
+#Logical operators : and, or, not
+
+# Operators in, not in
+
+var12 = 'world'
+print('w' in 'world')
+
+# len : Returns number of items
+
+var13 = 'Python'
+print(len(var13))
+print(var13[0:4])
+
+# try / except
+
+var14 = '21'
+
+try:
+    ...
+    if(var14>10):
+        print("value grater than 10")
+    else:
+        print("value less than 0")
+except:
+    ...
+    print("Except: Invalid Information")
