@@ -75,7 +75,7 @@ else:
 
 #Comparion operators: >, >=, <, <=, == and !=
 
-'''
+
 v11 = 24
 if v11<=10:
     print("Is bigger")
@@ -108,3 +108,26 @@ try:
 except:
     ...
     print("Except: Invalid Information")
+
+# Constant
+
+THIS_IS_CONSTANT = "constant has a default value"
+
+'''
+
+# while 
+
+var_condition = True
+
+while var_condition:
+    print(1)
+    print(2)
+    var_condition = False
+    
+    break
+
+# assignment operators (=, +=, -=, *=, /=. //=, **=, %=)
+
+#.lower()  : Returns lowercase letters
+
+# .startwith("x") : Returns if the initial letter is ""
