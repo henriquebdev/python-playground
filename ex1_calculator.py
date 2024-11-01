@@ -2,7 +2,7 @@
 # First step - Create the input variables
 
 menu_option = ...
-any_error = "" #ok
+any_error = ""
 calculation = ...
 msg_result = ""
         
