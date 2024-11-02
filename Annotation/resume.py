@@ -1,4 +1,4 @@
-'''
+
 #do Comment
 
 #Print words in console
@@ -113,8 +113,6 @@ except:
 
 THIS_IS_CONSTANT = "constant has a default value"
 
-'''
-
 # while 
 
 var_condition = True
@@ -131,3 +129,12 @@ while var_condition:
 #.lower()  : Returns lowercase letters
 
 # .startwith("x") : Returns if the initial letter is ""
+
+# .count('x') : Used for countig how many times the letter 'inside ()' appears at the string.
+
+#for in
+
+text_variable = "Python"
+
+for item in text_variable:
+    print((item))
