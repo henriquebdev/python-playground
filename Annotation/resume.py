@@ -1,4 +1,4 @@
-
+'''
 #do Comment
 
 #Print words in console
@@ -113,6 +113,8 @@ except:
 
 THIS_IS_CONSTANT = "constant has a default value"
 
+
+
 # while 
 
 var_condition = True
@@ -123,7 +125,7 @@ while var_condition:
     var_condition = False
     
     break
-
+'''
 # assignment operators (=, +=, -=, *=, /=. //=, **=, %=)
 
 #.lower()  : Returns lowercase letters
@@ -136,5 +138,16 @@ while var_condition:
 
 text_variable = "Python"
 
-for item in text_variable:
+for item  in text_variable:
     print((item))
+
+#for + range
+# range -> range(start, stop, step)
+
+numbers = range(1,10,2)
+print(numbers)
+
+for number in numbers:
+    print(number)
+
+
