@@ -14,3 +14,20 @@ word that the user got right.
 
  '''
 
+loop_controller = False
+secret_word = 'roses'
+
+while loop_controller == False:
+    chosen_word = input('Write the word: ')
+
+    try:
+        if not chosen_word.isalpha() or len(chosen_word) != 1:
+            raise ValueError("The input must contain only letters. Please try again")
+
+    except ValueError as e:
+        print('Error: ', e)
+        continue
+
+    
+
+
