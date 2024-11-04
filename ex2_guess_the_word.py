@@ -16,18 +16,32 @@ word that the user got right.
 
 loop_controller = False
 secret_word = 'roses'
+aux_console_word = ''
+
 
 while loop_controller == False:
     chosen_word = input('Write the word: ')
+    length_word = len(chosen_word)
 
     try:
-        if not chosen_word.isalpha() or len(chosen_word) != 1:
+        if not chosen_word.isalpha() or length_word != 1:
             raise ValueError("The input must contain only letters. Please try again")
 
     except ValueError as e:
         print('Error: ', e)
         continue
 
+    if len(aux_console_word) == 0:
+        for word in secret_word:
+            aux_console_word = aux_console_word + '*'
     
-
+    for index, value in enumerate(secret_word):
+        if(chosen_word == value):
+            aux_console_word = "{}{}{}".format(aux_console_word[:index], chosen_word, aux_console_word[index + 1:])
+    
+    if aux_console_word == secret_word:
+        print('Congratulation, you got the word right: ', secret_word)
+        loop_controller = True
+    else:
+        print('Formatted word: ',aux_console_word)
 
