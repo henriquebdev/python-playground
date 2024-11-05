@@ -150,4 +150,7 @@ print(numbers)
 for number in numbers:
     print(number)
 
-
+# Lists - its a mutable type [123, True, 'teste']
+# Useful methods: append, insert, pop, del, clear, extend, +
+example_list = list()
+example_2_list = []
