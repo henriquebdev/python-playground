@@ -125,7 +125,7 @@ while var_condition:
     var_condition = False
     
     break
-'''
+
 # assignment operators (=, +=, -=, *=, /=. //=, **=, %=)
 
 #.lower()  : Returns lowercase letters
@@ -149,8 +149,25 @@ print(numbers)
 
 for number in numbers:
     print(number)
-
+'''
 # Lists - its a mutable type [123, True, 'teste']
 # Useful methods: append, insert, pop, del, clear, extend, +
+#.append('x') :  add anything in the final list
+#.insert(1,'x') : add anything in the informed index 
+#.pop() : if u dont pass parameters, this will exclude automatly the last objetct in the list
+# but if u pass the array position he will exclude him
+#extend() : it's a way to unify lists
+# clear() : used to remove all elements inside a list
+
 example_list = list()
 example_2_list = []
+ex_3_list = ['rice']
+
+example_2_list.append("Luiz")
+example_2_list.append("Helena")
+example_2_list.insert(1,"Jony")
+#example_2_list.pop(0)
+example_2_list.clear()
+example_2_list.extend(ex_3_list)
+
+print(example_2_list)
