@@ -183,4 +183,11 @@ for name in list_ex:
 #By convention we can use this value (_) and for when the variable exists but has no use
 
 name1, *_ = ['m','j','l']
-print(name1) 
+print(*_) 
+
+#Whenever we need a list that doesn't need to change anything, we can create a tuple
+
+name2 = 'm','k'
+name2 = ('m','k')
+n3 = ['m','n']
+n4 = tuple(n3)
