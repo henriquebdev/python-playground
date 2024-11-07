@@ -178,3 +178,9 @@ list_ex = ['maria', 'jonny', 'Luiz']
 
 for name in list_ex:
     print(name, type(name))
+
+#introduction to packaging and unpacking
+#By convention we can use this value (_) and for when the variable exists but has no use
+
+name1, *_ = ['m','j','l']
+print(name1) 
