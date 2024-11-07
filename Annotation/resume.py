@@ -171,3 +171,10 @@ example_2_list.clear()
 example_2_list.extend(ex_3_list)
 
 print(example_2_list)
+
+#for in with list
+
+list_ex = ['maria', 'jonny', 'Luiz']
+
+for name in list_ex:
+    print(name, type(name))
