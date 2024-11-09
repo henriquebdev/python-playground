@@ -191,9 +191,22 @@ name2 = 'm','k'
 name2 = ('m','k')
 n3 = ['m','n']
 n4 = tuple(n3)
-'''
+
 
 list = ['l','o','t']
 
 for index, value in enumerate(list):
     print(index)
+'''
+
+#Using split and join (with 'list' or 'str')
+
+ex_frase = 'first step : second step'
+ex_frase = ex_frase.split(':')
+print(ex_frase)
+ex_frase2 = '-'.join(ex_frase)
+print(ex_frase2) 
+
+# Ternary Operators
+
+var_ex = print('Condition Tested') if 2>=2 else print('Condition Failed')
