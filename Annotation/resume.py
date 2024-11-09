@@ -149,7 +149,7 @@ print(numbers)
 
 for number in numbers:
     print(number)
-'''
+
 # Lists - its a mutable type [123, True, 'teste']
 # Useful methods: append, insert, pop, del, clear, extend, +
 #.append('x') :  add anything in the final list
@@ -191,3 +191,9 @@ name2 = 'm','k'
 name2 = ('m','k')
 n3 = ['m','n']
 n4 = tuple(n3)
+'''
+
+list = ['l','o','t']
+
+for index, value in enumerate(list):
+    print(index)
