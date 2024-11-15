@@ -30,9 +30,9 @@ for question in questions:
               response_calc = 'Wrong ❌\n'
                     
     except:
-         print('Wrong ❌') 
+         print('Wrong ❌\n') 
          continue       
     
     print(response_calc)
 
-print(f'You got {score} out of {len(questions)} questions right')
+print(f'You got {score} out of {len(questions)} questions right\n')
