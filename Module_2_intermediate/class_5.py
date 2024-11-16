@@ -38,9 +38,12 @@ Common set functions and methods:
         print (A ^ B) # Symmetric differente: {1,3}
             The symmetric, it includes all items that are unique to each set, excluding elements that
             are present in both
+
+    6) Converter a list to a set (remove duplicates)
+
+        list = [1,2,2,3,4]
+        set = set(list)
+        print(set) # {1,2,3,4}
 '''
 
-a = {1,2}
-b = {2,3}
 
-print (a ^ b)
